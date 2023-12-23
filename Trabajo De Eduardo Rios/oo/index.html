@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <title>Rios Backend</title>
+    <link rel="icon" href="IMGS/logo-head.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="/BACKEND/menu.js"></script>
+    <script src="/BACKEND/scroll_up.js"></script>
+    <link rel="stylesheet" href="/contacto/index.html">
+
+<body>
+    <div class="loader-section">
+        <span class="loader"></span>
+    </div>
+    <script>
+        function pageLoaded() {
+            let loaderSection = document.querySelector('.loader-section'); loaderSection.classList.add('loaded');
+        }
+
+        document.onload = pageLoaded();</script>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300">
+                <div class="brand">
+                    <img src="IMGS/logo-web.png" alt="" class="logo-img" data-aos="fade-right" data-aos-delay="700">
+                </div>
+                <ul class="menu">
+                    <li data-aos="fade-up" data-aos-delay="100"><a href="#inicio">Inicio</a></li>
+                    <li data-aos="fade-up" data-aos-delay="200"><a href="#baner">¿Quienes Somos?</a></li>
+                    <li data-aos="fade-up" data-aos-delay="300"><a href="#servicios">Servicios</a></li>
+                    <li data-aos="fade-up" data-aos-delay="500"><a href="#clientes">Clientes</a></li>
+                    <li data-aos="fade-up" data-aos-delay="500"><a href="contacto/index.html">Contactanos</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <div></div>
+        <main class="main" id="inicio">
+            <div class="info-content">
+                <h1 data-aos="fade-down" data-aos-delay="900">Soluciones que apoyan <br> las decisiones
+                    empresariales<span class="typed"></span></h1>
+                <p class="info_inicio" data-aos="fade-down" data-aos-delay="1000">Con control tu negocio <B> CRECE</B></p>
+
+            </div>
+        </main>
+    </div>
+    <div class="portfolio" id="servicios">
+        <div class="portfolio-heading">
+            <h2 data-aos="zoom-in-up" data-aos-delay="300">Nuestros Servicios</h2>
+            <div class="divider" data-aos="zoom-in-up" data-aos-delay="500"></div>
+        </div>
+        <div class="container">
+            <div class="card" data-aos="flip-left" data-aos-delay="600">
+                <div class="card__img">
+                </div>
+                <div class="card__title">
+                    <h2>ASESORÍA CONTABLES</h2>
+                </div>
+                <div class="card__proyect-links">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button bottom-mas">
+                        <a href="servicios/servicio1.html">+Informacion... </a>
+                    </button>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-left" data-aos-delay="700">
+                <div class="card__img2">
+                </div>
+                <div class="card__title">
+                    <h2>ASESORÍA <br> TRIBUTARIA</h2>
+                </div>
+                <div class="card__proyect-links">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button  bottom-mas" class="bottom2">
+                        <a href="servicios/servicio2.html">+Informacion...</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-left" data-aos-delay="800">
+                <div class="card__img3">
+                </div>
+                <div class="card__title">
+                    <h2>ASESORÍA <br> LABORAL</h2>
+                </div>
+                <div class="card__proyect-links">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button bottom-mas">
+                        <a href="servicios/servicio3.html">+Informacion...</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card" data-aos="flip-left" data-aos-delay="900">
+                <div class="card__img4">
+                </div>
+                <div class="card__title">
+                    <h2>ASESORÍA Y
+                        CUMPLIMIENTOS
+                    </h2>
+                </div>
+                <div class="card__proyect-links">
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+                <div class="button-content">
+                    <button class="project-details-button bottom-mas">
+                        <a href="servicios/servicio4.html">+Informacion...</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <section id="clientes">
+            <section class="baner" id="baner">
+                <center>
+                    <h1 class="h1-baner" data-aos="fade-up" data-aos-delay="200">Nosotros Somos</h1>
+                    <p data-aos="zoom-out-right" data-aos-delay="300" >Somos una firma de profesionales
+                        en el área contable y tributaria con
+                        amplio reconocimiento a nivel
+                        nacional con más de 10 años de
+                        experiencia aportando soluciones
+                        y credibilidad en la información de
+                        nuestros clientes.</p>
+                        <img src="/IMGS/logo-head.png" alt="" class="baner_img" data-aos="fade-left"
+                        data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="700"
+                        data-aos-delay="500">
+    </center>
+    </section>
+    <div>
+        <section id="clientes">
+            <section>
+                <center>
+                    <h1 class="h1-clientes" data-aos="fade-up">Nuestros Clientes</h1>
+                    <div class="background-clientes"> <img src="IMGS/clientes2.jpeg" alt="" class="img-clientes2"
+                            data-aos="zoom-in" data-aos-delay="200">
+                        <img src="IMGS/clientes.jpg" alt="" class="img-clientes" data-aos="zoom-in"
+                            data-aos-delay="100">
+
+                        <img src="IMGS/clientes3.jpeg" alt="" class="img-clientes3" data-aos="zoom-in"
+                            data-aos-delay="300">
+                        <img src="IMGS/clientes4.png" alt="" class="img-clientes4" data-aos="zoom-in"
+                            data-aos-delay="400">
+                    </div>
+                </center>
+            </section>
+    </div>
+    </div>
+    <section class="separator">
+
+    </section>
+    <div>
+        <footer class="footer" id="footer">
+            <img src="IMGS/logo-web.png" alt="" class="footer_img">
+
+
+        </footer>
+        <img src="IMGS/datos_footer.png" alt="" class="footer_img2">
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="menu.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"><img src="IMGS/up.png" alt="" class="img-up"></i>
+        </div>
+    </div>
+    <script>
+        window.onscroll = function () {
+            console.log(document.documentElement.scrollTop);
+            if (document.documentElement.scrollTop > 100) {
+                document.querySelector('.go-top-container').classList.add('show');
+
+            }
+            else {
+                document.querySelector('.go-top-container').classList.remove('show');
+            }
+        }
+
+        document.querySelector('.go-top-container').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</head>
